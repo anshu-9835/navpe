@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavPe | Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="auth-body">
+
+<div class="auth-wrapper">
+
+    <div class="auth-brand">
+
+        <a href="index.html" class="logo">
+            <span>Nav</span>Pe<span class="logo-dot"></span>
+        </a>
+
+        <h1>Welcome Back</h1>
+
+        <p>
+            Login to access your NavPe account
+            and manage your payment operations.
+        </p>
+
+        <div class="auth-feature">
+            ✓ Secure account access
+        </div>
+
+        <div class="auth-feature">
+            ✓ Real-time dashboard
+        </div>
+
+        <div class="auth-feature">
+            ✓ Payment management
+        </div>
+
+    </div>
+
+
+    <div class="auth-form-container">
+
+        <a href="index.html" class="back-home">
+            ← Back to website
+        </a>
+
+        <div class="auth-form">
+
+            <h2>Login</h2>
+
+            <p>Enter your account details below.</p>
+
+            <form id="loginForm">
+
+                <div class="form-group">
+
+                    <label>Email Address</label>
+
+                    <input
+                        type="email"
+                        placeholder="you@example.com"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>Password</label>
+
+                    <input
+                        type="password"
+                        id="loginPassword"
+                        placeholder="Enter password"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="remember">
+
+                    <label>
+                        <input type="checkbox">
+                        Remember me
+                    </label>
+
+                    <a href="#">Forgot Password?</a>
+
+                </div>
+
+
+                <button type="submit" class="primary-btn full-btn">
+                    Login →
+                </button>
+
+                <div id="loginMessage" class="form-message"></div>
+
+            </form>
+
+
+            <div class="auth-switch">
+
+                Don't have an account?
+
+                <a href="register.html">
+                    Create Account
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
